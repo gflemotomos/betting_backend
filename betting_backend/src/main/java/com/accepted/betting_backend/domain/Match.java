@@ -40,7 +40,9 @@ public class Match {
     private String team_b;
 
     @NotNull
-    private Short sport;
+    @Enumerated
+    @Column(columnDefinition = "smallint")
+    private Sport sport;
 
     @OneToMany(targetEntity=MatchOdds.class, mappedBy="match_id",cascade=CascadeType.ALL, fetch = FetchType.LAZY)
     private List<MatchOdds> matchOdds;
