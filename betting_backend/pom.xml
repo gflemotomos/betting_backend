@@ -12,7 +12,7 @@
     <artifactId>betting_backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>betting_backend</name>
-    <description>Technical assignment</description>
+    <description>Betting backend demo</description>
     <properties>
         <java.version>11</java.version>
     </properties>
